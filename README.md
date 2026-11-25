@@ -74,12 +74,13 @@
 
 | 时间 | 事件 |
 |------|------|
-| 2026-11-06 00:13 | 表情包已出现在聊天记录中，成品至少此前完成 |
-| 2026-11-10 20:56 | 手机相册收到原图（1254×1254，2.3MB PNG，来自 QQ 图集） |
+| 2026-11-06 00:13 | 首批 4 张已在 QQ 中发送（时间戳由 QQ 生成） |
+| 2026-11-07 20:39–20:49 | 第二批 4 张 |
+| 2026-11-10 19:54–20:15 | 第三批 15 张；20:56 相册收到 1254×1254 / 2.3MB PNG 原图 |
 | 2026-11-25 23:08 | 22 张定稿导出为 JPEG |
 | 2026-11-25 23:20 | 首次公开发布（本仓库首个提交 `53ee7fe`，tag `v1.0.0`） |
 
-截图与提示词原件见 [evidence/README.md](evidence/README.md)。
+完整聊天记录长图与逐条时间见 [evidence/README.md](evidence/README.md) 第三节；提示词原件见同目录 `evidence/prompts/`。**所有聊天时间戳均由 QQ 客户端生成**。
 
 详细操作步骤见 [TIMESTAMP.md](TIMESTAMP.md)，登记材料清单见 [COPYRIGHT-REGISTRATION.md](COPYRIGHT-REGISTRATION.md)。
 
@@ -99,7 +100,7 @@
 .
 ├── assets/                  22 张原图（1254×1254）
 ├── evidence/prompts/         提示词原文（画风 + 角色设定，创作过程证据）
-├── evidence/screenshots/     时间线截图（2026-11-06 聊天记录、2026-11-10 相册信息）
+├── evidence/screenshots/     时间线证据（QQ 聊天记录长图、相册信息页）
 ├── evidence/README.md        过程证据索引与时间线
 ├── preview.jpg              带文件名的预览总览图
 ├── MANIFEST.csv             逐文件：尺寸 / 字节 / SHA-256 / 原始文件名
