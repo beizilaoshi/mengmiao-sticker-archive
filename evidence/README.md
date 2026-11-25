@@ -18,7 +18,7 @@
 | `qq-chat/README.md` + `sends.csv` + `sends.json` | **QQ 聊天记录明文导出**（2026-11-25 23:44 导出，128 条消息），抽取 23 条图片发送记录，精确到秒 | 22 张成品在 **2026-11-06 00:13 至 11-10 20:19** 已作为 PNG 原图存在于 QQ 记录中，且逐张与发布集对应 |
 | `email/2026-11-25-qqmail-59M.pdf` + `email/2026-11-25-qqmail-headers.eml`（收件副本）+ `email/2026-11-25-qqmail-sent-headers.eml`（发件副本）+ `email/README.md` | **邮件存证**：2026-11-25 23:57:44，`zhuo0355943@163.com`（共筑社）→ `2023351165@qq.com`（beizi），59 MB，正文即本组作品。PDF 为页面快照；`.eml` 为**字节精确的邮件头**（含 `Received`/`DKIM`/`SPF`/`Message-ID`） | 腾讯网关 `Authentication-Results` 亲验 **SPF/DKIM/DMARC 全 pass**，时间由 163、腾讯两台服务器分别写入，本机无法伪造 |
 | `email/2026-11-26-qqmail-headers.eml` + `email/2026-11-26-qqmail-sent-headers.eml` + `email/README.md` 第九节 | **补件邮件存证**：2026-11-26 00:43:58 同一账号再发 13.7 MB 邮件，附件即 23、24 号两幅 PNG 原图（与 `assets/` 文件哈希完全相同） | 23、24 号作品在 2026-11-26 00:43:58 之前已存在；收件端 `spf/dkim/dmarc` 全 pass |
-| ``timestamp/README.md`` | 可信时间戳待办：三个待盖章文件的 SHA-256、两条办理路线（tsa.cn / 权利卫士）、入库命名与记录规范 | 见 [timestamp/README.md](timestamp/README.md) |
+| `timestamp/2026-11-26-MANIFEST.sha256.tsa` + `timestamp/2026-11-26-MANIFEST-证书.pdf` + `timestamp/README.md` | **第三方可信时间戳（已办理）**：联合信任时间戳服务中心对 `MANIFEST.sha256` 签发，证书编号 `TSA-01-20261126471497590`，加盖时间 **2026-11-26 01:11:05 +08:00**，费用 ¥10。`.tsa` 为 CMS SignedData 二进制凭证（2,626 B），PDF 为 3 页认证证书 | 24 幅作品的哈希清单在 2026-11-26 01:11:05 已存在且此后未被篡改；时间由第三方时间源签名，本机无法伪造 |
 
 ---
 
@@ -36,7 +36,11 @@ ec04cee714c759a777eed83f710b6598b7c7dd11d4d48a87b25cd773a8593902  email/2026-11-
 6baebbac7a78e2fb949170bbfe49f2720d553cceba57c0b3b76efed41408d364  email/2026-11-25-qqmail-sent-headers.eml
 8253739041413e1add614b548a9063deaf70e638ee7e59b959e6ebb0fdaecbe2  email/2026-11-26-qqmail-headers.eml
 73d00925951438bd045a7b65f32b6d9ffdfaab1d0999dd0ebcb0edd7cf1a81f2  email/2026-11-26-qqmail-sent-headers.eml
+37c4ed890434ede73e752a6896e8bd4dc5ee71353a720d835c5abb163533bd3e  timestamp/2026-11-26-MANIFEST.sha256.tsa
+6186ab7c55124bb8c960f8ae1b4867de9834ba332f12184ded49a646e04e353b  timestamp/2026-11-26-MANIFEST-证书.pdf
 ```
+
+> 时间戳的**被保护对象**是 `MANIFEST.sha256`（2,112 B，SHA-256 `2938338a8c2f9c13d6b0ca8ea6463907539a14709e0b16718e9cb81267cf44b9`）。已实测该哈希以字节形式内嵌于 `.tsa` 的 `messageImprint`（偏移 99），与清单文件当前哈希完全一致；任何一张图改动 → 清单重算 → 与时间戳对不上。
 
 > 说明：相册截图与长图的 SHA-256 与权利人提供的原始附件完全一致，未经任何修改。
 
@@ -86,11 +90,13 @@ ec04cee714c759a777eed83f710b6598b7c7dd11d4d48a87b25cd773a8593902  email/2026-11-
 | 2026-11-26 00:43:58 | 23、24 号两幅 PNG 原图以邮件自寄存证（13.7 MB，附件哈希与 `assets/` 一致） | 163 已发送 + QQ 收件箱双端邮件头 |
 | 2026-11-25 23:20 | 首次公开发布（GitHub 首个提交 `53ee7fe` + tag `v1.0.0`） | Git 历史 |
 | 2026-11-25 23:57 | 邮件存证：163 → QQ，59 MB，正文即本组作品 | `email/2026-11-25-qqmail-59M.pdf` + 邮件头 |
+| **2026-11-26 01:11:05** | **第三方可信时间戳加盖成功**：联合信任对 `MANIFEST.sha256`（24 幅哈希清单）签发证书 `TSA-01-20261126471497590` | `timestamp/2026-11-26-MANIFEST.sha256.tsa` + 认证证书 PDF |
 
 ---
 
 ## 五、待补充材料（越全越好）
 
+- [x] **第三方可信时间戳**（2026-11-26 01:11:05，证书 `TSA-01-20261126471497590`）——见 `timestamp/`
 - [ ] **原始 PNG 文件**（`Image_1794315367721_659.PNG` 等，1254×1254 / 2.3MB）——比 JPEG 定稿更有证明力，建议放到 `originals/`
 - [x] QQ 加密备份包已导出并记录哈希（`qq-export/`，原件不公开）
 - [x] **明文版聊天记录**（QQChatExporter 2026-11-25 23:44 导出 JSON）——已抽取 23 条图片记录到 `qq-chat/`，精确到秒；完整导出件因含隐私内容不公开，仅登记哈希

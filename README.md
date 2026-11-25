@@ -74,7 +74,7 @@
 
 1. **Git 提交记录**——每次提交带 SHA-1 与时间，任何改动都会留下不可回填的痕迹；
 2. **SHA-256 全量清单**——[MANIFEST.sha256](MANIFEST.sha256)，任何一张图被改动，哈希立刻对不上；
-3. **可信时间戳（TSA）**——对 `MANIFEST.sha256` 申请第三方时间戳，司法实践中可直接作为电子证据；
+3. **可信时间戳（TSA）**——已办理：联合信任时间戳服务中心 2026-11-26 01:11:05 对 `MANIFEST.sha256` 签发，证书编号 `TSA-01-20261126471497590`，凭证见 [evidence/timestamp/](evidence/timestamp/)；
 4. **作品登记**——中国版权保护中心美术作品登记，是平台投诉最认的硬材料；
 5. **创作过程材料**——生成本组作品所用的提示词原文（[evidence/prompts/](evidence/prompts/)）与逐张记录，见 [CREATION-LOG.md](CREATION-LOG.md)。本组作品由权利人设计提示词、借助 AI 图像生成工具产出初稿后选题定稿，创作方式的完整说明见 [NOTICE.md](NOTICE.md) 第二节。
 
@@ -89,6 +89,7 @@
 | 2026-11-25 23:20 | 首次公开发布（本仓库首个提交 `53ee7fe`，tag `v1.0.0`） |
 | 2026-11-26 00:43:58 | **补入 23、24 号并邮件存证**：同账号自 `zhuo0355943@163.com` 发出 13.7 MB 邮件（内含两张 PNG 原图，与 `assets/` 中文件逐字节一致），`Message-ID <515a00c9.9fe9.1a21397b45e.Coremail.zhuo0355943@163.com>`，收发两端副本一致，见 [evidence/email/](evidence/email/) |
 | 2026-11-25 23:57:44 | **邮件存证（两端互证）**：从 `zhuo0355943@163.com`（共筑社，出口 IP `223.74.189.22`）向 `2023351165@qq.com`（beizi）发送 59 MB 邮件，正文即本组作品。发件副本（163 已发送，23:57:44）与收件副本（QQ 收件箱，23:57:53）**`Message-ID` 完全一致**，腾讯网关亲验 **SPF / DKIM / DMARC 全 pass**，见 [evidence/email/](evidence/email/) |
+| **2026-11-26 01:11:05** | **第三方可信时间戳加盖**：联合信任对 24 幅作品的哈希清单 `MANIFEST.sha256` 签发证书 `TSA-01-20261126471497590`，时间由第三方时间源签名，本机无法伪造，见 [evidence/timestamp/](evidence/timestamp/) |
 
 完整聊天记录长图见 [evidence/README.md](evidence/README.md) 第三节；**精确到秒的 QQ 明文导出记录（23 条，22 条与 `assets/` 逐张对应）见 [evidence/qq-chat/](evidence/qq-chat/)**；提示词原件见 `evidence/prompts/`。**所有聊天时间戳均由 QQ 客户端/服务器生成**。
 
@@ -114,7 +115,7 @@
 ├── evidence/qq-chat/         QQ 明文导出：23 条图片发送记录（精确到秒）+ 逐张对应表
 ├── evidence/qq-export/       QQ 加密导出包哈希清单（原件不入库）
 ├── evidence/email/           邮件存证：2026-11-25 23:57 自寄邮件（发件/收件两端邮件头 + 页面 PDF + 原件哈希）
-├── evidence/timestamp/       可信时间戳：待盖章文件清单与操作步骤（tsa.cn / 权利卫士）
+├── evidence/timestamp/       可信时间戳：已加盖的 .tsa 凭证 + 认证证书 PDF（证书号 TSA-01-20261126471497590）与办理/验证说明
 ├── evidence/README.md        过程证据索引与时间线
 ├── preview.jpg              带文件名的预览总览图
 ├── MANIFEST.csv             逐文件：尺寸 / 字节 / SHA-256 / 原始文件名
