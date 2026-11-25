@@ -46,7 +46,8 @@ git push origin main --tags
 | 首次提交时间 | 2026-11-25T23:20:00+08:00 | 2026-11-25 |
 | v1.0.0 标签 | `v1.0.0`（annotated，tag 对象 `f03cdec2c615629e51a26f559b1b54cf3fd668c3`） | 2026-11-25 |
 | GitHub 首次提交页面 | https://github.com/beizilaoshi/mengmiao-sticker-archive/commit/53ee7fec7d20e9318154ad9a32d5409cb6ac6c90 | 2026-11-25 |
-| 推送完成时远端 HEAD | `51cd8c5a7f3a8218a6189f6b83c6eb9b833b72ec`（main） | 2026-11-25 23:52 |
+| 推送完成时远端 HEAD | `71f59050242c398b2f00f0e1f8fc834d42f8d66f`（main，「授权口径收紧 + 邮件存证」） | 2026-11-26 00:03 |
+| v1.1.0 标签 | `v1.1.0`（annotated，tag 对象 `04c192ba3010eedaf1fd18607c4ba53aaddfb932`）：LICENSE 改为「全部使用均须授权」 | 2026-11-26 |
 | `MANIFEST.sha256` 哈希值 | `218045de2862df7bdc785c70832867d2780548aff587ab2d5e8c726fb94895ee` | 2026-11-25 |
 
 ---
