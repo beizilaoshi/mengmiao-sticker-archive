@@ -121,6 +121,7 @@
 ├── CREATION-LOG.md          创作过程记录（举证用）
 ├── TIMESTAMP.md             时间戳与存证操作指引
 ├── COPYRIGHT-REGISTRATION.md 作品登记材料清单
+├── complaint-kit/             **投诉包**：填空即用（权属声明 / 8 类平台模板 / 证据清单 / 记录表 / 驳回应对）
 ├── COMPLAINT-TEMPLATES.md   国内平台投诉模板
 ├── .gitattributes
 └── .gitignore
