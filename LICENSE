@@ -1,9 +1,9 @@
-﻿# 著作权许可协议 / Copyright License
+# 著作权许可协议 / Copyright License
 
 **作品名称：** 蓝白猫娘表情包（Catgirl Sticker Pack）
 **著作权人（Licensor）：** 龚震宇
 **首次发表：** 2026-11-25（GitHub 仓库首次提交）
-**版本：** 1.0
+**版本：** 1.1（2026-11-26 修订：取消一切无授权即可使用的例外，任何使用均须事先书面授权）
 
 ---
 
@@ -11,66 +11,70 @@
 
 ### 一、权利归属
 
-本仓库内全部图片、文字及其组合作品（以下称「本作品」）的著作权，包括但不限于复制权、发行权、信息网络传播权、改编权、汇编权，均由著作权人 龚震宇 单独享有并保留。本作品受《中华人民共和国著作权法》及中华人民共和国参加的国际著作权公约保护。
+本仓库内全部图片、文字及其组合作品（以下称「本作品」）的著作权，包括但不限于复制权、发行权、信息网络传播权、展览权、改编权、汇编权，均由著作权人 龚震宇 单独享有并保留。本作品受《中华人民共和国著作权法》及中华人民共和国参加的国际著作权公约保护。
 
-本协议仅授予本协议明确列明的有限许可，**未明确授予的权利一律由著作权人保留**。
+本协议**不授予任何许可**。任何未取得书面授权的使用行为，均可能构成侵权。
 
-### 二、允许的行为（无需另行申请）
+### 二、授权原则
 
-在**非商业目的**前提下，任何人可以：
+1. **本作品采用「全部使用均须授权」原则。** 除本节第 3 款所述的法定情形外，任何主体以任何方式使用本作品——包括但不限于下载、保存、复制、在即时通信软件或其他社交软件中以表情形式发送、转发、公开展示、发布、传播、改编、汇编、作为素材使用——均须事先取得著作权人的**书面授权**（含电子邮件、电子签名文件等可留存的电子书面形式）。
+2. **不存在「默认允许」或「默示许可」。** 本作品在本仓库公开可见，仅为展示与权属公示，不构成对任何使用行为的许可；著作权人的沉默、未拒绝或未追究，均不构成许可或权利放弃。
+3. 法律强制规定的**合理使用**情形（如为个人学习、研究或欣赏而使用、为介绍评论而适当引用），不因本协议而改变；但著作权人不因此放弃对超出合理使用范围之行为的追责权利。
 
-1. 下载、保存、备份本作品；
-2. 在私人聊天、社交软件的对话中作为表情使用，包括转发给他人；
-3. 在标明出处的个人主页、个人博客、非营利性内容中展示本作品，并同时保留完整的署名信息（作者名 + 本仓库地址）；
-4. 将本作品原样（不作任何修改、不裁剪、不压缩去水印）转发给他人，并附上本协议或本仓库链接。
+### 三、授权申请
 
-以上行为须同时满足：**保留署名**、**不作商业使用**、**不作修改**。
+1. **申请渠道：** 邮件 `2023351165@qq.com`，或在本仓库提交 Issue；邮件标题请使用 `授权申请-<用途>-<申请人>`。
+2. **应载明：** 申请人真实姓名或单位名称、联系方式、使用场景与平台、使用张数与用途、是否商业性、使用期限、使用地域。
+3. **答复时限：** 个人非商业申请 7 日内答复；商业申请 15 日内答复。
+4. **费用：** 是否免费、收费标准与支付方式，由著作权人按申请用途逐案决定，以书面答复为准。未收到书面同意前，视为**未获授权**。
+5. 授权仅在被明确列明的范围、期限、地域内有效；超出部分须另行申请。
 
-### 三、禁止的行为（未经书面授权一律禁止）
+### 四、未经授权一律禁止的行为
 
-1. **任何形式的商业使用**，包括但不限于：付费表情包、周边商品、印刷品、广告、带货、直播打赏引流、付费社群素材、企业宣传物料、需付费才可获取的内容；
-2. **二次创作与修改**，包括但不限于：改色、改画、加字、裁剪、拼接、抠图重绘、作为素材合成新作品；
-3. **去除或遮蔽署名**、水印、本协议或仓库地址；
-4. **将本作品用于训练或微调任何人工智能模型、构建数据集**；
-5. **在未经许可的平台上以「原创」名义重新发布**，或冒充作者身份；
-6. 用于任何违法、侵权、侮辱、色情、暴力或违反公序良俗的用途；
-7. 以任何方式暗示著作权人为其背书或与其存在合作关系。
+1. 下载、保存、复制本作品后，在任何场合使用（含个人保存后用于聊天、演示、发布）；
+2. 在即时通信软件、社交平台、论坛、网站、小程序、公众号、直播间等任何渠道发送、转发、展示、发布本作品；
+3. **任何形式的商业使用**，包括但不限于：付费表情包、周边商品、印刷品、广告、带货、直播打赏引流、付费社群素材、企业宣传物料、需付费才可获取的内容；
+4. **二次创作与修改**，包括但不限于：改色、改画、加字、裁剪、拼接、抠图重绘、作为素材合成新作品；
+5. 去除或遮蔽署名、水印、本协议或仓库地址；
+6. 将本作品用于训练或微调任何人工智能模型、构建任何数据集；
+7. 以「原创」名义重新发布，或冒充著作权人身份；
+8. 用于任何违法、侵权、侮辱、色情、暴力或违反公序良俗的用途；
+9. 以任何方式暗示著作权人为其背书、与其存在合作或授权关系。
 
-### 四、商业授权
+### 五、商业授权
 
-任何商业用途均须事先取得著作权人的**书面授权**（含电子书面形式）。授权范围、期限、地域、费用由双方另行约定。未取得授权即进行商业使用的，构成对本作品的侵权。
+任何商业用途均须事先取得著作权人的**书面授权**（含电子书面形式）。授权范围、期限、地域、费用、是否独家由双方另行约定。未取得授权即进行商业使用的，构成对本作品的侵权。
 
-### 五、侵权处理
+### 六、侵权处理
 
-著作权人保留对侵权行为采取一切法律措施的权利，包括但不限于：要求停止侵害、删除内容、消除影响、赔礼道歉、赔偿损失（含合理的维权开支，如律师费、公证费、时间戳服务费、取证费）。
+著作权人保留对侵权行为采取一切法律措施的权利，包括但不限于：要求停止侵害、删除内容、断开链接、消除影响、赔礼道歉、赔偿损失（含合理的维权开支，如律师费、公证费、时间戳服务费、取证费），并有权向平台、应用商店、支付渠道提交侵权投诉与下架请求。
 
-### 六、免责
+### 七、免责
 
 本作品按「现状」提供。在法律允许的最大范围内，著作权人不对使用本作品造成的任何直接或间接损失承担责任。
 
-### 七、其他
+### 八、其他
 
 1. 本协议的订立、效力、解释、履行及争议解决，均适用中华人民共和国法律（不含港澳台地区法律冲突规范）。
 2. 因本协议引起的争议，由著作权人住所地有管辖权的人民法院管辖。
 3. 本协议任何条款被认定无效，不影响其余条款的效力。
-4. 著作权人可在本仓库发布新版本协议；新版本仅适用于发布之后的版本，已按旧版本取得的许可继续有效。
+4. 著作权人可在本仓库发布新版本协议；新版本仅适用于发布之后的授权，已按旧版本书面取得的授权继续有效。
+5. 本协议以中文为准；英文仅为阅读便利之摘要。
 
 ---
 
 ## English (Summary — the Chinese text prevails)
 
-All rights reserved. Copyright © 2026 龚震宇. **The Chinese text above is the governing version.**
+All rights reserved. Copyright © 2026 龚震宇 (GONG Zhenyu). **The Chinese text above is the governing version.**
 
-**Permitted (non-commercial only):** personal download and backup; use as a chat sticker including forwarding; display on personal, non-commercial pages with the author's name and a link to this repository kept intact; verbatim redistribution with this license attached.
+**No license is granted.** Except for statutory fair use under applicable law, **any** use of this work — downloading, saving, sending or forwarding it as a chat sticker, displaying, publishing, redistributing, modifying, compositing, or using it as a training corpus — requires **prior written permission** from the copyright holder. Public availability of this repository is not a permission and does not create an implied licence.
 
-**Prohibited without prior written permission:** any commercial use whatsoever; modification, recoloring, cropping, compositing or derivative works; removal of attribution; use as training data for any AI model; re-uploading as one's own work; any unlawful, defamatory, sexual, violent or public-order-violating use; implying endorsement by the author.
+**How to request permission:** email `2023351165@qq.com` (subject: `Licence Request - <purpose> - <name>`) or open an Issue in this repository, stating your identity, contact, intended use, platform, number of images, commercial or not, term and territory. Personal non-commercial requests are answered within 7 days; commercial requests within 15 days. Fees, if any, are decided case by case. Silence is **not** consent.
 
-**Commercial licensing:** requires prior written permission from the copyright holder.
-
-**Enforcement:** the copyright holder reserves all legal remedies, including injunctive relief, takedown demands and damages together with reasonable enforcement costs.
+**Enforcement:** the copyright holder reserves all legal remedies, including takedown demands to platforms, injunctive relief and damages together with reasonable enforcement costs.
 
 **Governing law:** the laws of the People's Republic of China. Exclusive jurisdiction: the court with jurisdiction at the copyright holder's domicile.
 
 ---
 
-如需商业授权，请通过仓库 Issue 或邮箱联系著作权人（见 NOTICE.md）。
+授权申请、侵权举报请联系著作权人（见 NOTICE.md）。
