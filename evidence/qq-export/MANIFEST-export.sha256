@@ -1,0 +1,11 @@
+# QQ 聊天记录导出包 · 完整性记录
+# 导出位置：D:\文件\时间\942D65C11114C66DA104D9C6F2E1249B
+# 导出时间：2026-11-25 23:32（文件系统时间）
+# 格式：SQLite 3 加密库（SQLCipher，页面为密文，QQ 侧密钥）
+# 说明：原始文件体积约 183MB 且含完整聊天隐私，不纳入本仓库；此表仅记录哈希以供核验。
+#
+# sha256                                                            bytes       mtime                filename
+deca775459dd22e87b4d1432cabec22f0db6b29d1adfcde34527174fb9e0baa7  59032576  2026-11-25 23:32:05  2A3515611AA5E764F34C6551C540FEDD
+cea0ed49e5cd14c8f54f25ddfc13a205a70493895ce3a25c3ee0344b0046c19d  60736512  2026-11-25 23:32:05  C1BCC4B611DA11FB9429C9F5E3A3CDF1
+1afe02692ae8bafd32b0def278a3fb6f1c65a45b9318eb5129bfead949ca12d0  320512  2026-11-25 23:32:05  D727BBB14C7D4FA29CCF82E3C1C65CE1
+cdd4899908dbd2e783bbb50e254937d6772eead4ffbe38d6f9cb3d9b49f03cb2  63316992  2026-11-25 23:32:05  FF7FA9532C5A0A8372C7837B5D420024

@@ -9,3 +9,8 @@ desktop.ini
 # 私人材料：身份证、合同、登记证书扫描件等敏感证据
 evidence/private/
 *.psd
+# QQ 原始导出包：体积大且含完整聊天隐私，只提交哈希记录
+evidence/qq-export/raw/
+evidence/qq-export/*.db
+evidence/qq-export/*-journal
+*.db-journal
