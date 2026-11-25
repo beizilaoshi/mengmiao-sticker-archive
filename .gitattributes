@@ -3,6 +3,8 @@
 *.jpeg binary
 *.png binary
 *.psd binary
+*.eml binary
+*.pdf binary
 *.md text eol=lf
 LICENSE text eol=lf
 MANIFEST.sha256 text eol=lf
