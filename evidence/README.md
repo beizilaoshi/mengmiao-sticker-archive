@@ -17,6 +17,7 @@
 | `qq-export/MANIFEST-export.sha256` + `qq-export/README.md` | QQ 客户端 2026-11-25 23:32 导出的加密聊天记录包的哈希清单（原始文件 183MB 不入库） | 存在一份官方导出原件，可用哈希固定其内容不变 |
 | `qq-chat/README.md` + `sends.csv` + `sends.json` | **QQ 聊天记录明文导出**（2026-11-25 23:44 导出，128 条消息），抽取 23 条图片发送记录，精确到秒 | 22 张成品在 **2026-11-06 00:13 至 11-10 20:19** 已作为 PNG 原图存在于 QQ 记录中，且逐张与发布集对应 |
 | `email/2026-11-25-qqmail-59M.pdf` + `email/2026-11-25-qqmail-headers.eml`（收件副本）+ `email/2026-11-25-qqmail-sent-headers.eml`（发件副本）+ `email/README.md` | **邮件存证**：2026-11-25 23:57:44，`zhuo0355943@163.com`（共筑社）→ `2023351165@qq.com`（beizi），59 MB，正文即本组作品。PDF 为页面快照；`.eml` 为**字节精确的邮件头**（含 `Received`/`DKIM`/`SPF`/`Message-ID`） | 腾讯网关 `Authentication-Results` 亲验 **SPF/DKIM/DMARC 全 pass**，时间由 163、腾讯两台服务器分别写入，本机无法伪造 |
+| ``timestamp/README.md`` | 可信时间戳待办：三个待盖章文件的 SHA-256、两条办理路线（tsa.cn / 权利卫士）、入库命名与记录规范 | 见 [timestamp/README.md](timestamp/README.md) |
 
 ---
 
