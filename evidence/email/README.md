@@ -87,6 +87,8 @@
 8b3954ac676e7e83ca514fd9c86336d7fecd2cddc3b87b1b217f10b516053e08  2026-11-25-qqmail-headers.eml        （收件副本邮件头）
 6baebbac7a78e2fb949170bbfe49f2720d553cceba57c0b3b76efed41408d364  2026-11-25-qqmail-sent-headers.eml   （发件副本邮件头）
 ec04cee714c759a777eed83f710b6598b7c7dd11d4d48a87b25cd773a8593902  2026-11-25-qqmail-59M.pdf            （页面快照）
+8253739041413e1add614b548a9063deaf70e638ee7e59b959e6ebb0fdaecbe2  2026-11-26-qqmail-headers.eml        （补件·收件副本邮件头）
+73d00925951438bd045a7b65f32b6d9ffdfaab1d0999dd0ebcb0edd7cf1a81f2  2026-11-26-qqmail-sent-headers.eml   （补件·发件副本邮件头）
 ```
 
 ---
@@ -103,6 +105,16 @@ Get-FileHash evidence\email\2026-11-25-qqmail-sent-headers.eml -Algorithm SHA256
 
 Get-FileHash evidence\email\2026-11-25-qqmail-59M.pdf          -Algorithm SHA256
 # 期望 ec04cee714c759a777eed83f710b6598b7c7dd11d4d48a87b25cd773a8593902
+
+Get-FileHash evidence\email\2026-11-26-qqmail-headers.eml      -Algorithm SHA256
+# 期望 8253739041413e1add614b548a9063deaf70e638ee7e59b959e6ebb0fdaecbe2
+
+Get-FileHash evidence\email\2026-11-26-qqmail-sent-headers.eml -Algorithm SHA256
+# 期望 73d00925951438bd045a7b65f32b6d9ffdfaab1d0999dd0ebcb0edd7cf1a81f2
+
+# 补件原件（各约 13.7 MB，不入库）：
+Get-FileHash 'D:\下载\36bdf56d316c1bd980be2578fb591526 (2).eml' -Algorithm SHA256   # e3f539fb…（收件）
+Get-FileHash 'D:\下载\36bdf56d316c1bd980be2578fb591526 (1).eml' -Algorithm SHA256   # 8e47effc…（发件）
 
 # 若手上有两份原始 .eml：
 Get-FileHash 'D:\下载\(无主题).eml'      -Algorithm SHA256   # 48103abb…
@@ -174,3 +186,23 @@ DNS 取 s110527._domainkey.163.com        → 拿到 1024-bit 公钥，但与签
 ---
 
 © 2026 龚震宇. 保留所有权利。任何使用均须事先书面授权，见 [LICENSE](../../LICENSE)。
+
+---
+
+## 九、2026-11-26 补件邮件（23、24 号）
+
+2026-11-26 00:43:58，同一账号（`zhuo0355943@163.com` → `2023351165@qq.com`）再发一封 13.7 MB 邮件，用同样方式为新增的两幅作品定下时间锚。
+
+| 项目 | 值 |
+|------|-----|
+| `Message-ID` | `<515a00c9.9fe9.1a21397b45e.Coremail.zhuo0355943@163.com>` |
+| `Date` | `Thu, 26 Nov 2026 00:43:58 +0800 (CST)` |
+| `Subject` | `36bdf56d316c1bd980be2578fb591526`（发送端自动生成的附件包标识） |
+| 发件副本 | `36bdf56d316c1bd980be2578fb591526 (1).eml`，13,747,518 B，sha256 `8e47effc34b30c29ea1255195259311404e7b05966a481b6161c0ef11cdf9434` |
+| 收件副本 | `36bdf56d316c1bd980be2578fb591526 (2).eml`，13,749,668 B，sha256 `e3f539fb64589bcb18dcbd3408a6083d19a9b60ede22e1ca3b734e6cb9746207` |
+| 收件端校验 | `spf=pass(220.197.31.2)`、`dkim=pass(signature was verified) header.d=163.com`、`dmarc=pass` |
+| 附件（＝`assets/` 中的文件，逐字节一致） | `36bdf56d…png` 2,463,911 B sha256 `6871de7d…` → `23-无所事事.png`；`451653ec…png` 2,558,081 B sha256 `fee3fa0f…` → `24-跑路.png` |
+
+**这封邮件解决的是"23、24 号在 2026-11-26 00:43:58 之前就已存在"这件事**——两幅图的原始 PNG 就躺在邮件附件里，与仓库中的文件哈希完全相同（说明入库时没有重新编码）。它与第八节的三层效力结论完全一致：文件本身可改，但两家服务商服务器上的这封邮件改不了。
+
+> 注意：这两幅**不在** QQ 时间轴（2026-11-06 ~ 11-10）里，它们的时间证据只有这一封邮件 + Git 提交，弱于前 22 幅。若要拉平，可以对两张 PNG 单独做一次 10 元时间戳。

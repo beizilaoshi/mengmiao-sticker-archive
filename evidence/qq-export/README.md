@@ -39,7 +39,7 @@ D:\文件\时间\942D65C11114C66DA104D9C6F2E1249B
 
 **申请可信时间戳时，可以把下面两个文件一起做：**
 
-- `MANIFEST.sha256`（22 张图的哈希清单）
+- `MANIFEST.sha256`（24 张图的哈希清单）
 - `evidence/qq-export/MANIFEST-export.sha256`（导出包哈希清单）
 
 ## 四、想拿到可读的导出记录，应该这样做

@@ -17,6 +17,7 @@
 | `qq-export/MANIFEST-export.sha256` + `qq-export/README.md` | QQ 客户端 2026-11-25 23:32 导出的加密聊天记录包的哈希清单（原始文件 183MB 不入库） | 存在一份官方导出原件，可用哈希固定其内容不变 |
 | `qq-chat/README.md` + `sends.csv` + `sends.json` | **QQ 聊天记录明文导出**（2026-11-25 23:44 导出，128 条消息），抽取 23 条图片发送记录，精确到秒 | 22 张成品在 **2026-11-06 00:13 至 11-10 20:19** 已作为 PNG 原图存在于 QQ 记录中，且逐张与发布集对应 |
 | `email/2026-11-25-qqmail-59M.pdf` + `email/2026-11-25-qqmail-headers.eml`（收件副本）+ `email/2026-11-25-qqmail-sent-headers.eml`（发件副本）+ `email/README.md` | **邮件存证**：2026-11-25 23:57:44，`zhuo0355943@163.com`（共筑社）→ `2023351165@qq.com`（beizi），59 MB，正文即本组作品。PDF 为页面快照；`.eml` 为**字节精确的邮件头**（含 `Received`/`DKIM`/`SPF`/`Message-ID`） | 腾讯网关 `Authentication-Results` 亲验 **SPF/DKIM/DMARC 全 pass**，时间由 163、腾讯两台服务器分别写入，本机无法伪造 |
+| `email/2026-11-26-qqmail-headers.eml` + `email/2026-11-26-qqmail-sent-headers.eml` + `email/README.md` 第九节 | **补件邮件存证**：2026-11-26 00:43:58 同一账号再发 13.7 MB 邮件，附件即 23、24 号两幅 PNG 原图（与 `assets/` 文件哈希完全相同） | 23、24 号作品在 2026-11-26 00:43:58 之前已存在；收件端 `spf/dkim/dmarc` 全 pass |
 | ``timestamp/README.md`` | 可信时间戳待办：三个待盖章文件的 SHA-256、两条办理路线（tsa.cn / 权利卫士）、入库命名与记录规范 | 见 [timestamp/README.md](timestamp/README.md) |
 
 ---
@@ -33,6 +34,8 @@ f69ef098245b6605430a20835591b287dc93e64cf126effb16394e6a766cfd75  qq-chat/sends.
 ec04cee714c759a777eed83f710b6598b7c7dd11d4d48a87b25cd773a8593902  email/2026-11-25-qqmail-59M.pdf
 8b3954ac676e7e83ca514fd9c86336d7fecd2cddc3b87b1b217f10b516053e08  email/2026-11-25-qqmail-headers.eml
 6baebbac7a78e2fb949170bbfe49f2720d553cceba57c0b3b76efed41408d364  email/2026-11-25-qqmail-sent-headers.eml
+8253739041413e1add614b548a9063deaf70e638ee7e59b959e6ebb0fdaecbe2  email/2026-11-26-qqmail-headers.eml
+73d00925951438bd045a7b65f32b6d9ffdfaab1d0999dd0ebcb0edd7cf1a81f2  email/2026-11-26-qqmail-sent-headers.eml
 ```
 
 > 说明：相册截图与长图的 SHA-256 与权利人提供的原始附件完全一致，未经任何修改。
@@ -80,6 +83,7 @@ ec04cee714c759a777eed83f710b6598b7c7dd11d4d48a87b25cd773a8593902  email/2026-11-
 | 2026-11-10 19:54–20:19 | 第三批 15 条（14 张收录 + 1 张变体） | `qq-chat/sends.csv` |
 | 2026-11-10 20:56 | 手机相册收到 PNG 原图（1254×1254，2.3MB） | 相册信息页截图 |
 | 2026-11-25 23:08 | 22 张定稿导出为 JPEG | 文件系统时间 |
+| 2026-11-26 00:43:58 | 23、24 号两幅 PNG 原图以邮件自寄存证（13.7 MB，附件哈希与 `assets/` 一致） | 163 已发送 + QQ 收件箱双端邮件头 |
 | 2026-11-25 23:20 | 首次公开发布（GitHub 首个提交 `53ee7fe` + tag `v1.0.0`） | Git 历史 |
 | 2026-11-25 23:57 | 邮件存证：163 → QQ，59 MB，正文即本组作品 | `email/2026-11-25-qqmail-59M.pdf` + 邮件头 |
 

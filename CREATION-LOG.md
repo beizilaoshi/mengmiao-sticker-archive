@@ -11,7 +11,7 @@
 |------|------|
 | 作者（著作权人） | 龚震宇 |
 | 作品名称 | 蓝白猫娘表情包 |
-| 作品数量 | 22 张（1254 × 1254 px，JPEG） |
+| 作品数量 | 24 张（01–22：JPEG 1254 × 1254 px；23–24：PNG） |
 | 创作起止时间 | 不晚于 2026-11-06 起 至 2026-11-25（见 `evidence/README.md` 时间线） |
 | 创作地点 | 中华人民共和国 __ 省 __ 市 |
 | 首次发表 | 2026-11-25，GitHub 公开仓库 |
@@ -37,7 +37,7 @@
 | 使用的版本 / 界面 | ______ |
 | 生成时间 | 不晚于 2026-11-06 至 2026-11-25（2026-11-10 20:56 原图已入相册；2026-11-25 23:08 导出定稿） |
 | 生成总次数 | ______ 次 |
-| 最终选用张数 | 22 张 |
+| 最终选用张数 | 24 张（22 张首发于 2026-11-25，2 张于 2026-11-26 补入） |
 | 提示词设计 | ① 角色设定主提示词见 `evidence/prompts/002-mengmeng-miao-master-prompt.md`（逐字保留，10 节共约 180 条设定，涵盖发色/异色瞳/呆毛/猫耳/头饰/服装/构图/配色/画风）；② 画风提示词见 `evidence/prompts/001-generation-prompt.txt`（逐字保留）：<br>`masterpiece, best quality, highly detailed Japanese anime illustration, delicate hand-painted anime aesthetic, soft watercolor texture, refined and elegant lineart, beautiful pastel color palette, luminous soft lighting, cinematic composition, dreamy atmosphere, subtle painterly brush strokes, delicate gradients, soft bloom, gentle bokeh, sparkling highlights, floating flower petals, intricate fabric details, silky flowing hair, expressive anime eyes, soft skin shading, warm sunlight, airy atmosphere, beautiful depth of field, polished visual novel illustration, charming and lively mood, pastel blue, pearl white, blush pink, lavender and warm golden accents, harmonious colors, high detail, clean composition` |
 | 角色设定（权利人确定） | 银白发色、异色瞳（左金右蓝）、猫耳、白色绒毛领、蓝白荷叶边服装；头饰为樱花 + 金色铃铛 + 蓝色蝴蝶结；整体画风为手绘水彩 + 柔和粉彩 |
 | 人工修改内容 | 例如：修正手指结构、重排文字、统一配色、补画缺失的铃铛/花饰、调整表情、裁切构图 |

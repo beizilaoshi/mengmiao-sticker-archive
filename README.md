@@ -1,12 +1,12 @@
 # 蓝白猫娘表情包 · Catgirl Sticker Pack
 
 **著作权人 / Author:** 龚震宇
-**版本 / Version:** 1.0.0
+**版本 / Version:** 1.2.0
 **首发日期 / First published:** 2026-11-25
 **仓库地址 / Repository:** https://github.com/beizilaoshi/mengmiao-sticker-archive
 **许可 / License:** 保留所有权利 · **任何使用均须事先书面授权**（见 [LICENSE](LICENSE)）
 
-一套 22 张的原创表情包，同一角色、同一配色（蓝白），覆盖日常聊天的主要情绪与场景。
+一套 24 张的原创表情包（其中 22 张首发于 2026-11-25，2 张于 2026-11-26 补入），同一角色、同一配色（蓝白），覆盖日常聊天的主要情绪与场景。
 
 ![预览](preview.jpg)
 
@@ -38,8 +38,10 @@
 | 20 | `assets/20-震惊.jpg` | 震惊（!?） | `58a0d6fc3057` |
 | 21 | `assets/21-冒泡.jpg` | 冒泡~ | `f2768709324c` |
 | 22 | `assets/22-难过.jpg` | 难过、掉眼泪 | `56d38bd2618e` |
+| 23 | `assets/23-无所事事.png` | 无所事事…（发呆） | `6871de7d6531` |
+| 24 | `assets/24-跑路.png` | 跑路！！（逃跑） | `fee3fa0ffded` |
 
-规格：JPEG，1254 × 1254 px，单张约 210–245 KB。
+规格：01–22 号为 JPEG，1254 × 1254 px，单张约 210–245 KB；23–24 号为 PNG 原图（1402 × 1122 与 1672 × 941），保留原始字节未做重编码。
 完整的哈希、字节数、原始文件名对照见 [MANIFEST.csv](MANIFEST.csv)，sha256sum 校验文件见 [MANIFEST.sha256](MANIFEST.sha256)。
 
 ---
@@ -85,6 +87,7 @@
 | 2026-11-10 19:54–20:19 | 第三批 15 条；20:56 相册收到 1254×1254 / 2.3MB PNG 原图 |
 | 2026-11-25 23:08 | 22 张定稿导出为 JPEG |
 | 2026-11-25 23:20 | 首次公开发布（本仓库首个提交 `53ee7fe`，tag `v1.0.0`） |
+| 2026-11-26 00:43:58 | **补入 23、24 号并邮件存证**：同账号自 `zhuo0355943@163.com` 发出 13.7 MB 邮件（内含两张 PNG 原图，与 `assets/` 中文件逐字节一致），`Message-ID <515a00c9.9fe9.1a21397b45e.Coremail.zhuo0355943@163.com>`，收发两端副本一致，见 [evidence/email/](evidence/email/) |
 | 2026-11-25 23:57:44 | **邮件存证（两端互证）**：从 `zhuo0355943@163.com`（共筑社，出口 IP `223.74.189.22`）向 `2023351165@qq.com`（beizi）发送 59 MB 邮件，正文即本组作品。发件副本（163 已发送，23:57:44）与收件副本（QQ 收件箱，23:57:53）**`Message-ID` 完全一致**，腾讯网关亲验 **SPF / DKIM / DMARC 全 pass**，见 [evidence/email/](evidence/email/) |
 
 完整聊天记录长图见 [evidence/README.md](evidence/README.md) 第三节；**精确到秒的 QQ 明文导出记录（23 条，22 条与 `assets/` 逐张对应）见 [evidence/qq-chat/](evidence/qq-chat/)**；提示词原件见 `evidence/prompts/`。**所有聊天时间戳均由 QQ 客户端/服务器生成**。
@@ -105,7 +108,7 @@
 
 ```
 .
-├── assets/                  22 张原图（1254×1254）
+├── assets/                  24 张原图（22 张 JPEG 1254×1254 + 2 张 PNG）
 ├── evidence/prompts/         提示词原文（画风 + 角色设定，创作过程证据）
 ├── evidence/screenshots/     时间线证据（QQ 聊天记录长图、相册信息页）
 ├── evidence/qq-chat/         QQ 明文导出：23 条图片发送记录（精确到秒）+ 逐张对应表
