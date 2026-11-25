@@ -74,13 +74,13 @@
 
 | 时间 | 事件 |
 |------|------|
-| 2026-11-06 00:13 | 首批 4 张已在 QQ 中发送（时间戳由 QQ 生成） |
+| 2026-11-06 00:13:52 | 首批 4 张已作为 PNG 原图存在于本人 QQ 记录中（时间戳由 QQ 服务器生成，精确到秒） |
 | 2026-11-07 20:39–20:49 | 第二批 4 张 |
-| 2026-11-10 19:54–20:15 | 第三批 15 张；20:56 相册收到 1254×1254 / 2.3MB PNG 原图 |
+| 2026-11-10 19:54–20:19 | 第三批 15 条；20:56 相册收到 1254×1254 / 2.3MB PNG 原图 |
 | 2026-11-25 23:08 | 22 张定稿导出为 JPEG |
 | 2026-11-25 23:20 | 首次公开发布（本仓库首个提交 `53ee7fe`，tag `v1.0.0`） |
 
-完整聊天记录长图与逐条时间见 [evidence/README.md](evidence/README.md) 第三节；提示词原件见同目录 `evidence/prompts/`。**所有聊天时间戳均由 QQ 客户端生成**。
+完整聊天记录长图见 [evidence/README.md](evidence/README.md) 第三节；**精确到秒的 QQ 明文导出记录（23 条，22 条与 `assets/` 逐张对应）见 [evidence/qq-chat/](evidence/qq-chat/)**；提示词原件见 `evidence/prompts/`。**所有聊天时间戳均由 QQ 客户端/服务器生成**。
 
 详细操作步骤见 [TIMESTAMP.md](TIMESTAMP.md)，登记材料清单见 [COPYRIGHT-REGISTRATION.md](COPYRIGHT-REGISTRATION.md)。
 
@@ -101,6 +101,8 @@
 ├── assets/                  22 张原图（1254×1254）
 ├── evidence/prompts/         提示词原文（画风 + 角色设定，创作过程证据）
 ├── evidence/screenshots/     时间线证据（QQ 聊天记录长图、相册信息页）
+├── evidence/qq-chat/         QQ 明文导出：23 条图片发送记录（精确到秒）+ 逐张对应表
+├── evidence/qq-export/       QQ 加密导出包哈希清单（原件不入库）
 ├── evidence/README.md        过程证据索引与时间线
 ├── preview.jpg              带文件名的预览总览图
 ├── MANIFEST.csv             逐文件：尺寸 / 字节 / SHA-256 / 原始文件名

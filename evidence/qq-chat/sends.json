@@ -1,0 +1,298 @@
+{
+  "exportedFrom": "QQChatExporter exports/friend_杯子Cup_2023351165_20261125_234350087.json",
+  "chatInfo": {
+    "name": "杯子Cup",
+    "type": "private",
+    "selfUid": "u_Z0qgpSAvwle3ycBq-aCdkg",
+    "selfUin": "2023351165",
+    "selfName": "杯子Cup",
+    "peerUid": "u_Z0qgpSAvwle3ycBq-aCdkg",
+    "peerUin": "2023351165",
+    "avatar": "https://q1.qlogo.cn/g?b=qq&nk=2023351165&s=640"
+  },
+  "statistics": {
+    "totalMessages": 128,
+    "timeRange": {
+      "start": "2026-01-19T10:15:39.000Z",
+      "end": "2026-11-25T15:27:32.000Z",
+      "durationDays": 310
+    },
+    "messageTypes": {
+      "text": 110,
+      "file": 9,
+      "system": 8,
+      "forward": 1
+    },
+    "senders": [
+      {
+        "uid": "u_Z0qgpSAvwle3ycBq-aCdkg",
+        "name": "杯子Cup",
+        "messageCount": 120,
+        "percentage": 93.75
+      }
+    ],
+    "resources": {
+      "total": 50,
+      "byType": {
+        "image": 41,
+        "file": 9
+      },
+      "totalSize": 950750582
+    }
+  },
+  "imageSends": [
+    {
+      "time": "2026-11-06 00:13:52",
+      "fileName": "DDEE77B98B10423D63C09C376B97F518.jpg",
+      "bytes": 235842,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "02-疑惑.jpg",
+      "diff": 1.3,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-06 00:13:54",
+      "fileName": "C784520EAF5D7B23B64D71F17395E895.jpg",
+      "bytes": 246674,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "19-抱枕.jpg",
+      "diff": 1.4,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-06 00:13:54",
+      "fileName": "91C80D4D79AFE579E1C6661BED1738AF.jpg",
+      "bytes": 252681,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "22-难过.jpg",
+      "diff": 1.5,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-06 00:13:55",
+      "fileName": "62E9E382BBC368571392E2EAA8505299.jpg",
+      "bytes": 262721,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "18-期待.jpg",
+      "diff": 1.49,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-07 20:39:51",
+      "fileName": "938C1A4460671807D8BA4C62EAB1012A.png",
+      "bytes": 2489005,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "20-震惊.jpg",
+      "diff": 1.62,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-07 20:40:57",
+      "fileName": "381C4B98D97C324904277FFAAAC33899.png",
+      "bytes": 2581769,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "13-生气.jpg",
+      "diff": 1.76,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-07 20:42:31",
+      "fileName": "2A541377973DBC99CDB4E4C3186E946C.png",
+      "bytes": 2522666,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "14-贴贴.jpg",
+      "diff": 1.71,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-07 20:49:25",
+      "fileName": "6518855C01AAD44D2CB7945653DFF87E.png",
+      "bytes": 2446098,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "16-好耶.jpg",
+      "diff": 1.66,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 19:54:32",
+      "fileName": "576F76D8FB6D38927528D8F85D891587.png",
+      "bytes": 2555530,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "12-早上好.jpg",
+      "diff": 42.96,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 19:55:59",
+      "fileName": "90DB96B8635A149B36B92F3531236B4C.png",
+      "bytes": 2310991,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "08-晚安.jpg",
+      "diff": 1.45,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 19:57:18",
+      "fileName": "AF07BCF3BCF26DC4771579FC4830A905.png",
+      "bytes": 2438886,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "12-早上好.jpg",
+      "diff": 1.72,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 19:58:54",
+      "fileName": "5CE3D60832C2E4AE5BF05EAF8CB7D807.png",
+      "bytes": 2465697,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "09-好饿.jpg",
+      "diff": 1.75,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 19:59:26",
+      "fileName": "3856480111E7922AD2C3001757580518.png",
+      "bytes": 2455321,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "05-摸鱼.jpg",
+      "diff": 1.72,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:08:42",
+      "fileName": "53EF4CC8AF95CD4A3594EAC7ED73A226.png",
+      "bytes": 2392885,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "21-冒泡.jpg",
+      "diff": 1.56,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:08:49",
+      "fileName": "2EB9A03E84E69A97AE6234AE68882599.png",
+      "bytes": 2410889,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "07-工作中.jpg",
+      "diff": 1.47,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:09:29",
+      "fileName": "3A638DC4EEC7E846A059A24DC805DF72.png",
+      "bytes": 2455295,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "17-下班打卡.jpg",
+      "diff": 1.57,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:10:09",
+      "fileName": "2A47B69AC3A2B7580FCFAC771FA57175.png",
+      "bytes": 2399661,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "10-困困.jpg",
+      "diff": 1.57,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:10:59",
+      "fileName": "682F26714DD514F5C5052DC2F91575DD.png",
+      "bytes": 2439403,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "15-回家.jpg",
+      "diff": 1.72,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:15:46",
+      "fileName": "C32ED0B0AAA0DC10088DCAF122D5A8F3.png",
+      "bytes": 2455496,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "06-委屈.jpg",
+      "diff": 1.64,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:16:56",
+      "fileName": "C10144B69CC1EB1CE1E3971358F21B42.png",
+      "bytes": 2360064,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "03-紧张.jpg",
+      "diff": 1.38,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:18:14",
+      "fileName": "DBB3BFA18E0FADE77A245AF18361D609.png",
+      "bytes": 2384684,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "01-乖宝宝.jpg",
+      "diff": 1.39,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:18:54",
+      "fileName": "A14225A69C37CF9C5C9E4F9BDDD5FFE7.png",
+      "bytes": 2476151,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "04-抱抱.jpg",
+      "diff": 1.53,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    },
+    {
+      "time": "2026-11-10 20:19:37",
+      "fileName": "A6AB5274201626B8802058496745D9B9.png",
+      "bytes": 2380730,
+      "width": 1254,
+      "height": 1254,
+      "matchAsset": "11-摸摸头.jpg",
+      "diff": 1.35,
+      "senderUin": "2023351165",
+      "senderName": "杯子Cup"
+    }
+  ]
+}
