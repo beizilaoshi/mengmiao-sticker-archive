@@ -77,8 +77,18 @@ sha256sum -c MANIFEST.sha256     # 先自检，确认 22 张图全部 OK
 **要点**：
 
 - 时间戳要针对 **`MANIFEST.sha256`** 申请，一次覆盖全部 22 张图，省钱且不易遗漏；
-- 拿到 `.tsa` 后，**立刻**在仓库里新建 `evidence/` 目录存进去，并在本文件记录证书编号；
+- 拿到 `.tsa` 后，**立刻**存进 [`evidence/timestamp/`](evidence/timestamp/README.md)（不要只存在平台账号里），并在本文件与那里的执行记录表登记证书编号；
 - 之后每次发布新版本，都对新版 `MANIFEST.sha256` 再打一次时间戳，形成连续时间链。
+
+**当前待盖章文件（2026-11-25 版，未改过就是这三个）**：
+
+| 文件 | 字节 | SHA-256 |
+|------|------|---------|
+| `MANIFEST.sha256` | 1,932 | `218045de2862df7bdc785c70832867d2780548aff587ab2d5e8c726fb94895ee` |
+| `evidence/email/2026-11-25-qqmail-headers.eml` | 3,079 | `8b3954ac676e7e83ca514fd9c86336d7fecd2cddc3b87b1b217f10b516053e08` |
+| `evidence/email/2026-11-25-qqmail-sent-headers.eml` | 853 | `6baebbac7a78e2fb949170bbfe49f2720d553cceba57c0b3b76efed41408d364` |
+
+**一次性做法的完整步骤见 [`evidence/timestamp/README.md`](evidence/timestamp/README.md)**：官网入口 <https://www.tsa.cn>（知识产权专用 <https://ipr.tsa.cn>）、手机 App「权利卫士」两条路线，报价 **10 元/次**（[联合信任知识库](https://m.tsa.cn/baike-page-7-c-14.html)：“最低只需 10 元/次”）。
 
 ---
 

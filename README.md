@@ -111,6 +111,7 @@
 ├── evidence/qq-chat/         QQ 明文导出：23 条图片发送记录（精确到秒）+ 逐张对应表
 ├── evidence/qq-export/       QQ 加密导出包哈希清单（原件不入库）
 ├── evidence/email/           邮件存证：2026-11-25 23:57 自寄邮件（发件/收件两端邮件头 + 页面 PDF + 原件哈希）
+├── evidence/timestamp/       可信时间戳：待盖章文件清单与操作步骤（tsa.cn / 权利卫士）
 ├── evidence/README.md        过程证据索引与时间线
 ├── preview.jpg              带文件名的预览总览图
 ├── MANIFEST.csv             逐文件：尺寸 / 字节 / SHA-256 / 原始文件名
