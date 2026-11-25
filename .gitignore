@@ -1,0 +1,11 @@
+# 系统与编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# 私人材料：身份证、合同、登记证书扫描件等敏感证据
+evidence/private/
+*.psd
