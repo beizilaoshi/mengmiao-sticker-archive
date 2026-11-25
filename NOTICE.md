@@ -9,7 +9,7 @@
 | 作品数量 | 22 张，JPEG，1254 × 1254 px |
 | 著作权人 | **龚震宇** |
 | 创作完成地 | 中华人民共和国 |
-| 创作完成时间 | 2026 年 11 月（见 [CREATION-LOG.md](CREATION-LOG.md) 逐张记录） |
+| 创作完成时间 | 不晚于 **2026-11-06**（聊天记录已出现成品；2026-11-10 20:56 原图入相册），详见 [evidence/README.md](evidence/README.md) 时间线 |
 | 首次发表时间 | **2026-11-25** |
 | 首次发表平台 | GitHub 公开仓库（本仓库首次提交） |
 | 权利状态 | 全部著作权归龚震宇单独享有，保留所有权利 |
@@ -23,7 +23,8 @@
 本组作品由权利人自主确定角色设定与提示词，借助 AI 图像生成工具产出初稿，并由权利人完成选题、筛选、定稿与整组编排：
 
 - 提示词原文（逐字保留）：[evidence/prompts/001-generation-prompt.txt](evidence/prompts/001-generation-prompt.txt)
-- 详细过程记录：[CREATION-LOG.md](CREATION-LOG.md)
+- 角色设定主提示词：[evidence/prompts/002-mengmeng-miao-master-prompt.md](evidence/prompts/002-mengmeng-miao-master-prompt.md)
+- 详细过程记录：[CREATION-LOG.md](CREATION-LOG.md) 与 [evidence/README.md](evidence/README.md)
 
 权利人主张的保护对象为：本组作品的**角色设定、画面选择与整组编排**。依据《中华人民共和国著作权法》第三条，以及司法实践中对 AI 生成内容的认定标准（如北京互联网法院 2023 年「李某诉刘某」著作权案），体现作者个性化选择与安排的部分受著作权法保护。
 

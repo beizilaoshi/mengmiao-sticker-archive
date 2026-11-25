@@ -70,6 +70,17 @@
 4. **作品登记**——中国版权保护中心美术作品登记，是平台投诉最认的硬材料；
 5. **创作过程材料**——生成本组作品所用的提示词原文（[evidence/prompts/](evidence/prompts/)）与逐张记录，见 [CREATION-LOG.md](CREATION-LOG.md)。本组作品由权利人设计提示词、借助 AI 图像生成工具产出初稿后选题定稿，创作方式的完整说明见 [NOTICE.md](NOTICE.md) 第二节。
 
+### 时间线（相互印证）
+
+| 时间 | 事件 |
+|------|------|
+| 2026-11-06 00:13 | 表情包已出现在聊天记录中，成品至少此前完成 |
+| 2026-11-10 20:56 | 手机相册收到原图（1254×1254，2.3MB PNG，来自 QQ 图集） |
+| 2026-11-25 23:08 | 22 张定稿导出为 JPEG |
+| 2026-11-25 23:20 | 首次公开发布（本仓库首个提交 `53ee7fe`，tag `v1.0.0`） |
+
+截图与提示词原件见 [evidence/README.md](evidence/README.md)。
+
 详细操作步骤见 [TIMESTAMP.md](TIMESTAMP.md)，登记材料清单见 [COPYRIGHT-REGISTRATION.md](COPYRIGHT-REGISTRATION.md)。
 
 ---
@@ -87,7 +98,9 @@
 ```
 .
 ├── assets/                  22 张原图（1254×1254）
-├── evidence/prompts/         生成提示词原文（逐字保留，创作过程证据）
+├── evidence/prompts/         提示词原文（画风 + 角色设定，创作过程证据）
+├── evidence/screenshots/     时间线截图（2026-11-06 聊天记录、2026-11-10 相册信息）
+├── evidence/README.md        过程证据索引与时间线
 ├── preview.jpg              带文件名的预览总览图
 ├── MANIFEST.csv             逐文件：尺寸 / 字节 / SHA-256 / 原始文件名
 ├── MANIFEST.sha256          sha256sum 格式校验文件
