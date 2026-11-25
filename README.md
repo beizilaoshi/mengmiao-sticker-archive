@@ -85,7 +85,7 @@
 | 2026-11-10 19:54–20:19 | 第三批 15 条；20:56 相册收到 1254×1254 / 2.3MB PNG 原图 |
 | 2026-11-25 23:08 | 22 张定稿导出为 JPEG |
 | 2026-11-25 23:20 | 首次公开发布（本仓库首个提交 `53ee7fe`，tag `v1.0.0`） |
-| 2026-11-25 23:57:44 | **邮件存证**：从 `zhuo0355943@163.com`（共筑社）向 `2023351165@qq.com`（beizi）发送一封 59 MB 邮件，正文即本组作品；腾讯网关 `Authentication-Results` 亲验 **SPF / DKIM / DMARC 全部 pass**，投放时间由 163、腾讯两台服务器分别写入，见 [evidence/email/](evidence/email/) |
+| 2026-11-25 23:57:44 | **邮件存证（两端互证）**：从 `zhuo0355943@163.com`（共筑社，出口 IP `223.74.189.22`）向 `2023351165@qq.com`（beizi）发送 59 MB 邮件，正文即本组作品。发件副本（163 已发送，23:57:44）与收件副本（QQ 收件箱，23:57:53）**`Message-ID` 完全一致**，腾讯网关亲验 **SPF / DKIM / DMARC 全 pass**，见 [evidence/email/](evidence/email/) |
 
 完整聊天记录长图见 [evidence/README.md](evidence/README.md) 第三节；**精确到秒的 QQ 明文导出记录（23 条，22 条与 `assets/` 逐张对应）见 [evidence/qq-chat/](evidence/qq-chat/)**；提示词原件见 `evidence/prompts/`。**所有聊天时间戳均由 QQ 客户端/服务器生成**。
 
@@ -110,7 +110,7 @@
 ├── evidence/screenshots/     时间线证据（QQ 聊天记录长图、相册信息页）
 ├── evidence/qq-chat/         QQ 明文导出：23 条图片发送记录（精确到秒）+ 逐张对应表
 ├── evidence/qq-export/       QQ 加密导出包哈希清单（原件不入库）
-├── evidence/email/           邮件存证：2026-11-25 23:57 自寄邮件（页面 PDF + 字节精确邮件头 .eml + 原件哈希）
+├── evidence/email/           邮件存证：2026-11-25 23:57 自寄邮件（发件/收件两端邮件头 + 页面 PDF + 原件哈希）
 ├── evidence/README.md        过程证据索引与时间线
 ├── preview.jpg              带文件名的预览总览图
 ├── MANIFEST.csv             逐文件：尺寸 / 字节 / SHA-256 / 原始文件名

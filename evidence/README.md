@@ -16,7 +16,7 @@
 | `screenshots/2026-11-25-qq-chat-timeline-full.jpg` | **完整聊天记录长图**（494×8190），收录 11-06 至 11-10 的逐条发送时间 | 全套表情包在 2026-11-06 ~ 2026-11-10 已分批发出，**远早于 11-25 首发** |
 | `qq-export/MANIFEST-export.sha256` + `qq-export/README.md` | QQ 客户端 2026-11-25 23:32 导出的加密聊天记录包的哈希清单（原始文件 183MB 不入库） | 存在一份官方导出原件，可用哈希固定其内容不变 |
 | `qq-chat/README.md` + `sends.csv` + `sends.json` | **QQ 聊天记录明文导出**（2026-11-25 23:44 导出，128 条消息），抽取 23 条图片发送记录，精确到秒 | 22 张成品在 **2026-11-06 00:13 至 11-10 20:19** 已作为 PNG 原图存在于 QQ 记录中，且逐张与发布集对应 |
-| `email/2026-11-25-qqmail-59M.pdf` + `email/2026-11-25-qqmail-headers.eml` + `email/README.md` | **邮件存证**：2026-11-25 23:57:44，`zhuo0355943@163.com`（共筑社）→ `2023351165@qq.com`（beizi），59 MB，正文即本组作品。PDF 为页面快照；`.eml` 为**字节精确的邮件头**（含 `Received`/`DKIM`/`SPF`/`Message-ID`） | 腾讯网关 `Authentication-Results` 亲验 **SPF/DKIM/DMARC 全 pass**，时间由 163、腾讯两台服务器分别写入，本机无法伪造 |
+| `email/2026-11-25-qqmail-59M.pdf` + `email/2026-11-25-qqmail-headers.eml`（收件副本）+ `email/2026-11-25-qqmail-sent-headers.eml`（发件副本）+ `email/README.md` | **邮件存证**：2026-11-25 23:57:44，`zhuo0355943@163.com`（共筑社）→ `2023351165@qq.com`（beizi），59 MB，正文即本组作品。PDF 为页面快照；`.eml` 为**字节精确的邮件头**（含 `Received`/`DKIM`/`SPF`/`Message-ID`） | 腾讯网关 `Authentication-Results` 亲验 **SPF/DKIM/DMARC 全 pass**，时间由 163、腾讯两台服务器分别写入，本机无法伪造 |
 
 ---
 
@@ -31,6 +31,7 @@ b180daeae00edb1330a21ad6458324da8b6d116ff3251cf8742faf3e954f8ccc  qq-chat/README
 f69ef098245b6605430a20835591b287dc93e64cf126effb16394e6a766cfd75  qq-chat/sends.csv
 ec04cee714c759a777eed83f710b6598b7c7dd11d4d48a87b25cd773a8593902  email/2026-11-25-qqmail-59M.pdf
 8b3954ac676e7e83ca514fd9c86336d7fecd2cddc3b87b1b217f10b516053e08  email/2026-11-25-qqmail-headers.eml
+6baebbac7a78e2fb949170bbfe49f2720d553cceba57c0b3b76efed41408d364  email/2026-11-25-qqmail-sent-headers.eml
 ```
 
 > 说明：相册截图与长图的 SHA-256 与权利人提供的原始附件完全一致，未经任何修改。
