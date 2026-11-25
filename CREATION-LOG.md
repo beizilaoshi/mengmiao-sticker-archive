@@ -22,7 +22,7 @@
 
 - [ ] **纯手绘 / 纯手工绘制**：绘制软件 ______，笔刷 ______，工程文件格式 ______
 - [ ] **手工绘制 + 数字后期**：手绘草稿 ______ 张 → 扫描/拍照 → 数字勾线上色
-- [ ] **AI 辅助生成 + 人工创作投入**（请务必填写第 3 节）
+- [x] **AI 辅助生成 + 人工创作投入**（提示词原文见 `evidence/prompts/001-generation-prompt.txt`）
 - [ ] **委托他人创作，已取得完整著作权转让**（请附合同编号与签署日期）
 
 > 说明：在中国司法实践中，AI 生成内容若体现作者的个性化选择与安排（提示词设计、多轮迭代、筛选、修改、构图与文案设计），可以构成受著作权法保护的作品（参考北京互联网法院 2023 年「李某诉刘某」案）。**举证的核心是过程记录，不是生成结果本身。**
@@ -35,14 +35,14 @@
 |------|------|
 | 使用的生成工具 / 模型 | ______（如 Stable Diffusion、Midjourney、某商业模型等） |
 | 使用的版本 / 界面 | ______ |
-| 生成时间 | 2026-11-__ 至 2026-11-25 |
+| 生成时间 | 2026-11-__ 至 2026-11-25（导出定稿 2026-11-25 23:08） |
 | 生成总次数 | ______ 次 |
 | 最终选用张数 | 22 张 |
-| 提示词设计（示例 2–3 条） | ① ______<br>② ______<br>③ ______ |
-| 迭代与筛选说明 | 例如：先确定角色设定（蓝白发色、猫耳、樱花铃铛头饰、蓝色蝴蝶结），再用不同情绪文案分别生成，逐张比对手部、眼睛、文字排版后择优 |
+| 提示词设计 | 见 `evidence/prompts/001-generation-prompt.txt`（逐字保留原文，未作修改）：<br>`masterpiece, best quality, highly detailed Japanese anime illustration, delicate hand-painted anime aesthetic, soft watercolor texture, refined and elegant lineart, beautiful pastel color palette, luminous soft lighting, cinematic composition, dreamy atmosphere, subtle painterly brush strokes, delicate gradients, soft bloom, gentle bokeh, sparkling highlights, floating flower petals, intricate fabric details, silky flowing hair, expressive anime eyes, soft skin shading, warm sunlight, airy atmosphere, beautiful depth of field, polished visual novel illustration, charming and lively mood, pastel blue, pearl white, blush pink, lavender and warm golden accents, harmonious colors, high detail, clean composition` |
+| 角色设定（权利人确定） | 银白发色、异色瞳（左金右蓝）、猫耳、白色绒毛领、蓝白荷叶边服装；头饰为樱花 + 金色铃铛 + 蓝色蝴蝶结；整体画风为手绘水彩 + 柔和粉彩 |
 | 人工修改内容 | 例如：修正手指结构、重排文字、统一配色、补画缺失的铃铛/花饰、调整表情、裁切构图 |
 | 使用的后期工具 | ______（如 Photoshop / Procreate / 其他） |
-| 是否保留生成过程记录 | [ ] 提示词文本 [ ] 迭代截图 [ ] 生成批次文件 [ ] 后期工程文件 |
+| 是否保留生成过程记录 | [x] 提示词文本（已存入仓库） [ ] 迭代截图 [ ] 生成批次文件 [ ] 后期工程文件 |
 
 **如果保留了下述任一材料，请在第四节列出其存放位置并做好备份——这是维权时最有说服力的东西。**
 
@@ -52,7 +52,7 @@
 
 | 材料类型 | 存放位置 | 备注 |
 |----------|----------|------|
-| 提示词 / 参数文本 | ______ | |
+| 提示词 / 参数文本 | `evidence/prompts/001-generation-prompt.txt` | 已随仓库提交，可追溯首次提交时间 |
 | 生成批次原始文件 | ______ | |
 | 迭代过程截图 | ______ | |
 | 后期工程文件（PSD / CLIP 等） | ______ | |

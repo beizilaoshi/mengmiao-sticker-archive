@@ -1,0 +1,29 @@
+生成提示词记录 / Generation Prompt Record
+================================================================
+作品：蓝白猫娘表情包（22 幅）
+著作权人：龚震宇
+记录时间：2026-11-25
+来源：权利人本人提供（2026-11-25 会话中直接给出原文）
+说明：以下为生成本组作品所用提示词原文，逐字保留，未作任何修改。
+
+----------------------------------------------------------------
+PROMPT (verbatim)
+----------------------------------------------------------------
+masterpiece, best quality, highly detailed Japanese anime illustration, delicate hand-painted anime aesthetic, soft watercolor texture, refined and elegant lineart, beautiful pastel color palette, luminous soft lighting, cinematic composition, dreamy atmosphere, subtle painterly brush strokes, delicate gradients, soft bloom, gentle bokeh, sparkling highlights, floating flower petals, intricate fabric details, silky flowing hair, expressive anime eyes, soft skin shading, warm sunlight, airy atmosphere, beautiful depth of field, polished visual novel illustration, charming and lively mood, pastel blue, pearl white, blush pink, lavender and warm golden accents, harmonious colors, high detail, clean composition
+----------------------------------------------------------------
+
+观察可得的一致性特征（供维权比对使用）
+----------------------------------------------------------------
+- 角色：银白发、异色瞳（左金右蓝）、猫耳、白色绒毛领、蓝白荷叶边服装
+- 头饰：樱花 + 金色铃铛 + 藏青/蓝色蝴蝶结
+- 画风：手绘水彩质感、柔和粉彩、发光高光、白色背景
+- 规格：1254 × 1254 px，JPEG，1:1
+- 文案：每张配一条中文情绪文案（见 MANIFEST.csv 与 README.md 清单）
+
+待补充字段（请权利人自行补全后提交）
+----------------------------------------------------------------
+- 生成工具 / 模型名称：
+- 生成平台 / 界面：
+- 生成次数：
+- 生成起止日期：
+- 后期工具（如有）：
