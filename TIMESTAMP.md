@@ -41,11 +41,12 @@ git push origin main --tags
 
 | 项目 | 内容 | 完成时间 |
 |------|------|----------|
-| 仓库地址 | https://github.com/______/______ | |
+| 仓库地址 | https://github.com/beizilaoshi/mengmiao-sticker-archive | 2026-11-25 |
 | 首次提交哈希 | `53ee7fec7d20e9318154ad9a32d5409cb6ac6c90` | 2026-11-25 |
 | 首次提交时间 | 2026-11-25T23:20:00+08:00 | 2026-11-25 |
-| v1.0.0 标签 | `v1.0.0`（annotated） | 2026-11-25 |
-| GitHub 首次提交页面 | ______ | |
+| v1.0.0 标签 | `v1.0.0`（annotated，tag 对象 `f03cdec2c615629e51a26f559b1b54cf3fd668c3`） | 2026-11-25 |
+| GitHub 首次提交页面 | https://github.com/beizilaoshi/mengmiao-sticker-archive/commit/53ee7fec7d20e9318154ad9a32d5409cb6ac6c90 | 2026-11-25 |
+| 推送完成时远端 HEAD | `51cd8c5a7f3a8218a6189f6b83c6eb9b833b72ec`（main） | 2026-11-25 23:52 |
 | `MANIFEST.sha256` 哈希值 | `218045de2862df7bdc785c70832867d2780548aff587ab2d5e8c726fb94895ee` | 2026-11-25 |
 
 ---

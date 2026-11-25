@@ -3,6 +3,7 @@
 **著作权人 / Author:** 龚震宇
 **版本 / Version:** 1.0.0
 **首发日期 / First published:** 2026-11-25
+**仓库地址 / Repository:** https://github.com/beizilaoshi/mengmiao-sticker-archive
 **许可 / License:** 保留所有权利 · 禁止商用 · 商用须书面授权（见 [LICENSE](LICENSE)）
 
 一套 22 张的原创表情包，同一角色、同一配色（蓝白），覆盖日常聊天的主要情绪与场景。
